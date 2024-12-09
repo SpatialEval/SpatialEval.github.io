@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Academic Project Page</title>
+  <link rel="icon" type="image/x-icon" href="static/images/spatialeval_webicon.png">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Is A Picture Worth A Thousand Words? Delving Into Spatial Reasoning for Vision Language Models</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+                  <span class="author-block">
+                    <a href="https://jiayuww.github.io/">Jiayu Wang</a><sup style="color:#ed4b82;">1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://alvinmingsf.github.io/">Yifei Ming</a><sup style="color:#6fbf73;">2</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://pages.cs.wisc.edu/~zhmeishi/">Zhenmei Shi</a><sup style="color:#ed4b82;">1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.microsoft.com/en-us/research/people/vivineet/">Vibhav Vineet</a><sup style="color:#ffac33">3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://xinw.ai/">Xin Wang</a><sup style="color:#ffac33">3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://pages.cs.wisc.edu/~sharonli/">Yixuan Li</a><sup style="color:#ed4b82">1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.microsoft.com/en-us/research/people/neel/">Neel Joshi</a><sup style="color:#ffac33">3</sup>,
+                  </span>
+                </div>
+      
+                <div class="is-size-5 publication-authors">
+                  <span class="author-block"><sup style="color:#ed4b82">1</sup>University of Wisconsin-Madison,</span><br>
+                  <span class="author-block"><sup style="color:#6fbf73">2</sup>Salesforce AI Research,</span>
+                  <span class="author-block"><sup style="color:#ffac33">3</sup>Microsoft Research</span><br>
+                  <span class="paper-block"><b style="color:rgb(13, 110, 253)">NeurIPS 2024</b> </span>
+                </div>
+
+                <div class="column has-text-centered">
+                  <div class="publication-links">
+                        <!-- Arxiv PDF link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/pdf/2406.14852" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                    <!-- ArXiv abstract Link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/2406.14852" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+
+                    <!-- Github link -->
+                    <span class="link-block">
+                      <a href="https://github.com/jiayuww/SpatialEval" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+
+                    <!-- Dataset Link -->
+                    <span class="link-block">
+                      <a href="https://huggingface.co/datasets/MilaWang/SpatialEval"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                            <p style="font-size:18px">🤗</p>
+                        </span>
+                        <span>Dataset</span>
+                      </a>
+                    </span>
+
+                    <!-- Dataset Link -->
+                    <span class="link-block">
+                      <a href="https://neurips.cc/virtual/2024/poster/94371"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                            <p style="font-size:18px">🎤</p>
+                        </span>
+                        <span>5 min Talk</span>
+                      </a>
+                    </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        Your video here
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Image Section -->
+<div class="container has-text-centered">
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <!-- Image -->
+          <div class="publication-image">
+              <img src="static/images/spatialeval_task.png" alt="SpatialEval Overview">
+          </div>
+          
+          <!-- Caption/Comments -->
+          <div class="content publication-caption">
+              <p class="has-text-grey-dark is-size-6" style="text-align: justify;">
+                <b>SpatialEval</b> is a benchmark to evaluate spatial intelligence for LLMs and VLMs across four key dimensions: <b>spatial relationships</b>, <b>positional understanding</b>, <b>object counting</b>, and <b>navigation</b>. The benchmark comprises <b>four distinct tasks</b>: <b>Spatial-Map</b> for comprehending spatial relationships between objects in map-based scenarios; <b>Maze-Nav</b> for testing navigation through complex environments; <b>Spatial-Grid</b> for evaluating spatial reasoning within structured environments; and <b>Spatial-Real</b> for real-world spatial understanding tasks. Each task incorporates three input modalities: Text-only (<b>TQA</b>), Vision-only (<b>VQA</b>), and Vision-Text (<b>VTQA</b>) inputs.
+              </p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large language models (LLMs) and vision-language models (VLMs) have demonstrated remarkable performance across a wide range of tasks and domains. Despite this promise, spatial understanding and reasoning — a fundamental component of human cognition — remains under-explored. We propose SpatialEval, a novel benchmark that covers diverse aspects of spatial reasoning such as relationship understanding, navigation, and counting. We conduct a comprehensive evaluation of competitive language and vision-language models. Our findings reveal several counter-intuitive insights that have been overlooked in the literature: (1) Spatial reasoning poses significant challenges where competitive models can fall behind random guessing; (2) Despite additional visual input, VLMs often under-perform compared to their LLM counterparts; (3) When both textual and visual information is available, multi-modal language models become less reliant on visual information if sufficient textual clues are provided. Additionally, we demonstrate that leveraging redundancy between vision and text can significantly enhance model performance. We hope our study will inform the development of multimodal models to improve spatial intelligence and further close the gap with human intelligence.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Main Results Section Header -->
+<div class="container has-text-centered">
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <div class="section-title" style="margin-top: 4rem;">
+              <h2 class="title is-3">Main Results</h2>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered">
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <!-- Table -->
+          <div class="table-container">
+              <table class="table is-fullwidth">
+                  <thead>
+                      <tr>
+                          <th>Model</th>
+                          <th>Input Modality</th>
+                          <th>Term</th>
+                          <th>Description</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>LLM</td>
+                          <td>Text-only</td>
+                          <td>TQA (LLM)</td>
+                          <td class="has-text-left">Text-only input that includes all necessary information to answer questions without visual context.</td>
+                      </tr>
+                      <tr>
+                          <td>VLM</td>
+                          <td>Text-only</td>
+                          <td>TQA (VLM)</td>
+                          <td class="has-text-left">Text-only input as in TQA (LLM) but applied to VLMs (e.g., the LLaVA family).</td>
+                      </tr>
+                      <tr>
+                          <td>VLM</td>
+                          <td>Vision-only</td>
+                          <td>VQA</td>
+                          <td class="has-text-left">Input only includes an image without corresponding textual description.</td>
+                      </tr>
+                      <tr>
+                          <td>VLM</td>
+                          <td>Vision-text</td>
+                          <td>VTQA</td>
+                          <td class="has-text-left">Input includes both an image and its textual description.</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+              <!-- Caption under the table -->
+              <div class="content has-text-centered" style="margin-top: 1rem;">
+                  <p class="has-text-grey-dark is-size-6">
+                      Summary of Terminology in SpatialEval.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Results Detail Section -->
+<div class="container has-text-centered">
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 1: Only a few models outperform random guessing for spatial reasoning tasks</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/main.png" alt="SpatialEval main results" style="max-width: 90%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 2: Vision information does not help with VQA? TQA (LLM) > VQA (VLM)</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/TQA_VQA.png" alt="TQA vs VQA" style="max-width: 80%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 3: Similar trend hold for Proprietary Models as open-source models</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/proprietary.png" alt="proprietary" style="max-width: 80%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 4: Leveraging redundancy in multimodal inputs can improve VLM performance</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/VQA_VTQA.png" alt="VQA vs VTQA" style="max-width: 80%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered">
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <!-- Table -->
+          <div class="table-container">
+              <table class="table is-fullwidth">
+                  <thead>
+                      <tr>
+                          <th>Comparison</th>
+                          <th>Summary of Findings</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>TQA (LLM) vs. VQA</td>
+                          <td class="has-text-left">VQA rarely enhances the performance compared to TQA (LLM).</td>
+                      </tr>
+                      <tr>
+                          <td>VTQA vs. TQA (VLM)</td>
+                          <td class="has-text-left">VLMs exhibit improved performance in spatial reasoning tasks when the image input is absent.</td>
+                      </tr>
+                      <tr>
+                          <td>VQA vs. VTQA</td>
+                          <td class="has-text-left">Given the same image input, additional textual description enhances VLM's performance.</td>
+                      </tr>
+                      <tr>
+                          <td>TQA (VLM) vs. TQA (LLM)</td>
+                          <td class="has-text-left">Multimodal fine-tuning enhances LLM's spatial reasoning ability.</td>
+                      </tr>
+                      <tr>
+                          <td>TQA (LLM) vs. VTQA</td>
+                          <td class="has-text-left">No definitive winner.</td>
+                      </tr>
+                  </tbody>
+              </table>
+              
+              <!-- Caption under the table -->
+              <div class="content has-text-centered" style="margin-top: 1rem;">
+                  <p class="has-text-grey-dark is-size-6">
+                      Summary of findings across different input modalities.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <div class="section-title" style="margin-top: 4rem;">
+              <h2 class="title is-3 has-text-centered">Ablation Studies</h2>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <div class="content">
+              <p>
+                  To better understand how VLMs process visual information, we conduct a series of controlled experiments in the VTQA (Vision-text input) setting. For each sample, we replace the original image input (that matches the textual description) with either: (1) No Image: only keep the textual input without the image input, (2) Noise Image: a Gaussian noise image irrelevant to the task, and (3) Random Image: a random image from the dataset that does not match the textual description.
+              </p>
+          </div>
+          <div class="publication-image has-text-centered">
+            <img src="static/images/vary_input.png" alt="image ablations" style="max-width: 80%;">
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 5: VLMs exhibit improved performance when visual input is absent; LLMs benefit from multimodal training</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/combined_no_plots.png" alt="original vs no image" style="max-width: 60%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 6: Noise image can help VQA</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/combined_noise_plots.png" alt="original vs noise image" style="max-width: 60%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-10">
+          <!-- Subsection Title -->
+          <h3 class="subtitle is-4 has-text-centered" style="color: #8B0000; margin-top: 3rem;">
+            💡 <b>Insight 7: Mismatched multimodal information does not necessarily hurt</b>
+          </h3>
+          
+          <!-- Image -->
+          <div class="publication-image has-text-centered">
+              <img src="static/images/combined_random_plots.png" alt="original vs noise image" style="max-width: 60%;">
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container has-text-centered"></div>
+  <div class="columns is-centered">
+      <div class="column is-8">
+          <div class="section-title" style="margin-top: 4rem;">
+              <h2 class="title is-3 has-text-centered">Detailed Examples</h2>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/1-map-detailed.png" alt="spatial-map-detailed"/>
+        <h2 class="subtitle has-text-centered">
+          Detailed Example for Spatial-Map Task.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/2-maze-detailed.png" alt="maze-nav-detailed"/>
+        <h2 class="subtitle has-text-centered">
+          Detailed Example for Maze-Nav Task.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/3-grid.png" alt="spatial-grid-detailed"/>
+        <h2 class="subtitle has-text-centered">
+          Detailed Example for Spatial-Grid Task.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/4-spatial_real.png" alt="spatial-real-detailed"/>
+      <h2 class="subtitle has-text-centered">
+        Detailed Example for Spatial-Real Task.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/SpatialEval_poster.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{wang2024spatial,
+        title={Is A Picture Worth A Thousand Words? Delving Into Spatial Reasoning for Vision Language Models},
+        author={Wang, Jiayu and Ming, Yifei and Shi, Zhenmei and Vineet, Vibhav and Wang, Xin and Li, Yixuan and Joshi, Neel},
+        booktitle={The Thirty-Eighth Annual Conference on Neural Information Processing Systems},
+        year={2024}
+      }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
